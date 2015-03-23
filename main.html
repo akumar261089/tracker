@@ -1,18 +1,10 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-=======
->>>>>>> a884446d6d07ae1d642a8315413a60238d4184e9
 <html>
   <head>
     <style>
       #map-canvas {
-<<<<<<< HEAD
+
         width: 1000px;
         height: 700px;
-=======
-        width: 500px;
-        height: 400px;
->>>>>>> a884446d6d07ae1d642a8315413a60238d4184e9
         background-color: #CCC;
 
       }
@@ -20,7 +12,7 @@
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
        function initialize() {
-       	      var myLatlng = new google.maps.LatLng(28.6370000000000,77.3725); // Add the coordinates
+       	      var myLatlng = new google.maps.LatLng{{ cor }}; // Add the coordinates
               var mapOptions = 	{
 								zoom: 17, // The initial zoom level when your map loads (0-20)	
 								minZoom: 6, // Minimum zoom level allowed (0-20)
@@ -64,7 +56,7 @@
 
 
   </head>
-  <body>abhinav
+  <body>{{ name }}
     <div id="map-canvas"></div>
   </body>
 </html>
